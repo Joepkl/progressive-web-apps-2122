@@ -1,0 +1,19 @@
+<button id="homeButton"><a href="index.html">Terug naar homepagina</a></button>
+<h2>Uitgelichte kunstwerken</h2>
+<section>
+</section> 
+<main>
+    <div>
+        <ul>
+        <% data.forEach((item) => { %>
+            <li>
+            <h2><%= item.longTitle %></h2>
+            <img src= "<%=item.webImage.url%>" alt="<%=item.title%>" >
+            </li>
+       <% }) %>
+        </ul>
+    </div>
+</main> 
+<p id="errorMelding"></p>
+
+<section id="resultsList"></section>
