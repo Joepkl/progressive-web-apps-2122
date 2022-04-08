@@ -8,7 +8,7 @@
         <% data.forEach((item) => { %>
             <li>
             <h2><%= item.longTitle %></h2>
-            <img src= "<%=item.webImage.url%>" alt="<%=item.title%>" >
+            <img src= "<%=item.webImage.url.slice(0, -3)+"=s300"%>" alt="<%=item.title%>" >
             </li>
        <% }) %>
         </ul>

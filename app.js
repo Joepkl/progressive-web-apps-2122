@@ -2,7 +2,12 @@ const http = require('http');
 const express = require('express');
 const app = express();
 const fetch = require('node-fetch');
-const port = 3000;
+const port = 9999;
+
+const compression = require('compression');
+
+app.use(compression());
+
 
 
 // Stel ejs in als template engine
