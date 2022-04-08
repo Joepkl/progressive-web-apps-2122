@@ -75,6 +75,10 @@ Dit event gaat werken elke keer dat er een fetch request wordt gedaan naar de se
 
 # Activity diagram
 
+Ik heb een activity diagram gemaakt om de werking van de app uit te leggen. 
+
+<img width="800" alt="Schermafbeelding 2022-04-08 om 13 54 01" src="https://user-images.githubusercontent.com/74242736/162430591-2d8f5e33-5a6c-4e12-bb05-1147bfd8f9b7.png">
+
 
 
 # Performance
